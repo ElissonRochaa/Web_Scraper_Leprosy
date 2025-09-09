@@ -90,31 +90,4 @@ result = executar_scraper_incremental_threads(max_urls=120)
   ```
   historico_leprosy_colab.json
   ```
-- Automatic visualizations are generated using **Matplotlib** and **Seaborn**.
 
----
-
-## 📸 Example Visualizations
-
-- Status of this run (Success/Errors)  
-- Distribution of URLs by source (Google, PubMed, Journals, etc.)  
-- Growth of the dataset (historic vs new URLs)  
-- Top 6 domains  
-- Abstract length distribution  
-- Automatic topic analysis (mentions of AI, ML, mHealth, etc.)  
-
----
-
-## 🔮 Future Improvements
-
-- Add more scientific databases (Scopus, IEEE Xplore, Springer).  
-- Apply **Natural Language Processing (NLP)** for deeper abstract analysis.  
-- Export results to **MLFlow** for tracking experiments.  
-- Create a **web dashboard** for interactive visualizations.  
-
----
-
-## 📜 License
-
-This project is licensed under the **MIT License**.  
-You are free to use, modify, and distribute it with attribution.
